@@ -1,0 +1,3 @@
+flask
+camelot-py[cv]
+PyPDF2
