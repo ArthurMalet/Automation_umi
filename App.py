@@ -9,7 +9,7 @@ app = Flask(__name__)
 def parse_pdf():
     data = request.get_json()
     pdf_base64 = data['file']
-    user_name = data.get('name', 'Arthur Malet')
+    user_name = data.get('name', 'MALET')
 
     # Décode et écrit le fichier temporairement
     pdf_bytes = base64.b64decode(pdf_base64)
